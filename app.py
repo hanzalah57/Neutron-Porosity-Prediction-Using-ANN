@@ -42,7 +42,7 @@ f"""
     max-width: 500px;
     margin: auto;
 ">
-    <span style="font-size: 32px; font-weight: bold;">{NEUT_Pred:.4f} v/v</span>
+    <span style="font-size: 32px; font-weight: bold;">{float(NEUT_Pred):.4f} v/v</span>
 </div>
 """,
 unsafe_allow_html=True
