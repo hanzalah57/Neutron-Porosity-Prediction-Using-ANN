@@ -1,6 +1,6 @@
-pandas
-numpy
-streamlit
-pickle
 tensorflow
-ipykernel
+streamlit
+numpy
+pandas
+scikit-learn
+pickle
