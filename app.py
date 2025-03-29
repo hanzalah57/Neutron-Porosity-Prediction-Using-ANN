@@ -26,7 +26,7 @@ input_data_scaled = Scaler.transform(input_data)
 
 NEUT_Pred = model.predict(input_data_scaled)[0]
 
- # Display Prediction
+st.write("### Prediction")
 st.markdown(
 f"""
 <div style="
