@@ -48,6 +48,9 @@ f"""
 unsafe_allow_html=True
 )
 
+st.write("### Data Statistics")
+st.dataframe(df.describe())
+
 
 st.sidebar.info("""This app predicts Neutron Porosity on the basis of other well log readings
 """)
